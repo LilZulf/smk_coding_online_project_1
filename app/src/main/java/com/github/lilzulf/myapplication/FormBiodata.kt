@@ -1,0 +1,12 @@
+package com.github.lilzulf.myapplication
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class FormBiodata : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_form_biodata)
+    }
+}
