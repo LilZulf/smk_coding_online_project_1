@@ -46,7 +46,7 @@ class FormBiodata : AppCompatActivity() {
             !Patterns.EMAIL_ADDRESS.matcher(email).matches() -> EtEmail.error = "Email tidak valid"
 
             phone.isEmpty() -> EtPhone.error = "Nomer telpon tidak boleh kosong"
-            address.isEmpty() -> EtPhone.error = "Alamat tidak boleh kosong"
+            address.isEmpty() -> EtAddress.error = "Alamat tidak boleh kosong"
             gender.equals("Pilih Jenis Kelamin", ignoreCase = true) ->
                 tampilToast("Jenis Kelamin harus dipilih")
             else -> {

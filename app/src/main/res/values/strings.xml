@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Biodata App</string>
-    <string name="show_name">Biodata App</string>
     <string-array name="jenis_kelamin">
         <item>Pilih Jenis Kelamin</item>
         <item>Laki-Laki</item>
         <item>Perempuan</item>
     </string-array>
+    <string name="creator_name">Ahmad Zulfan Najib</string>
+    <string name="creator_email">najibzulfan@gmail.com</string>
+    <string name="creator_phone_number">081230234595</string>
+    <string name="creator_address">Jl.Diponegoro I No 26 Bululawang</string>
+    <string name="creator_bio">Saya adalah murid rekayasa perangkat lunak SMKN 4 Malang. Hobi saya bermain Mobile Legends, biasanya
+        saya bermain sebagai tanker, fighter dan mage. Hero favorit saya adalah kufra.
+    </string>
 </resources>

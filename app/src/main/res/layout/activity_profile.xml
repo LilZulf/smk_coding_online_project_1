@@ -167,6 +167,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:text="About"
+                    android:id="@+id/btnAbout"
                     android:background="@color/colorPrimary"
                     android:textColor="#ffff"
                     />

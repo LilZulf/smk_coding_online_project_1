@@ -30,6 +30,10 @@ class ProfileActivity : AppCompatActivity() {
         btnCall.setOnClickListener {
             dialPhoneNumber(tvTelp.text.toString())
         }
+        btnAbout.setOnClickListener {
+            val i = Intent(this,AboutActivity::class.java)
+            startActivity(i)
+        }
     }
 
     private fun ambilData(){
